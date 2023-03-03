@@ -1,6 +1,6 @@
 package assignment.calculator;
 
-public class Substraction extends Maths{
+class Substraction extends Maths{
 	Substraction(double a,double b){
 		super(a,b);
 	}
