@@ -2,6 +2,10 @@ package assignment.linkedlist;
 import java.util.logging.Logger;
 
 public class Queue {
+	private Queue()
+	{
+		
+	}
 	public static void queue()
     {
 		Logger log=Logger.getLogger("hi");
