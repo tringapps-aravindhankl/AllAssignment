@@ -2,7 +2,10 @@ package assignment.linkedlist;
 import java.util.logging.Logger;
 
 public class Stack {
-	
+	private Stack()
+	{
+		
+	}
 	public static void stack()
 	{
 		Logger log=Logger.getLogger("hi");
