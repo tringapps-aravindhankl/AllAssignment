@@ -11,7 +11,10 @@ import java.util.logging.Logger;
 
 public class Students {
 	 private static Scanner scan;
-
+		private Students()
+	 	{
+	 		
+	 	}
 		public static void student()
 	    {
 	        List <StudentTest> list  =new ArrayList<StudentTest>(); 
