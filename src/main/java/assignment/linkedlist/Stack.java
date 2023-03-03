@@ -1,11 +1,12 @@
 package assignment.linkedlist;
-
+import java.util.logging.Logger;
 
 public class Stack {
 	public static void stack()
 	{
+		Logger log=Logger.getLogger("hi");
 		Stacklist list=new Stacklist();
-		System.out.println("Stack");
+		log.info("Stack");
         list.add(10);
         list.add(20);
         list.add(30);
