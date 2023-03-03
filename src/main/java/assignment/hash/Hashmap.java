@@ -6,6 +6,10 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 class Hashmap {
+	private Hashmap()
+	{
+		
+	}
 	public static void hashmap()
     {
     	HashMap<String, String> map = new HashMap<>();
