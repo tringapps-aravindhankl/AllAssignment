@@ -10,7 +10,7 @@ class Node{
     }
 }
 
-public class Queuelist {
+class Queuelist {
 	Node head=null;
     Logger log=Logger.getLogger("hi");
     public void add(int value){
