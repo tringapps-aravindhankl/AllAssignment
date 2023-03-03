@@ -3,7 +3,10 @@ package assignment.linkedlist;
 import java.util.Scanner;
 import java.util.logging.Logger;
 public class Linked {
+	private Linked()
+	{
 	
+	}
 	public static void linked() {
 		Logger log=Logger.getLogger("hi");
 		Scanner scan=new Scanner(System.in);
