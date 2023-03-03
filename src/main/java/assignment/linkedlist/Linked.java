@@ -3,11 +3,13 @@ package assignment.linkedlist;
 import java.util.Scanner;
 
 public class Linked {
+	
 	public static void linked() {
+		Logger log=Logger.getLogger("hi");
 		Scanner scan=new Scanner(System.in);
 		int choice;
 		do {
-		System.out.println("Enter your choice 1.Linkedlist 2.Queue 3.Stack 4.Exit");
+		log.info("Enter your choice 1.Linkedlist 2.Queue 3.Stack 4.Exit");
 		choice=scan.nextInt();
 		switch(choice) {
 		
@@ -24,7 +26,7 @@ public class Linked {
 		break;
 		
 		default:
-		System.out.println("ThankYou");
+		log.info("ThankYou");
 		}
 		
 	}while(choice<4);
