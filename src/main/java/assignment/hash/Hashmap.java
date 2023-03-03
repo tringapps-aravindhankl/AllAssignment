@@ -18,16 +18,16 @@ public class Hashmap {
         l.info("MAP:");
 		l.log(Level.INFO,()->" "+(map));
 
-        System.out.println("Print the keys:");
+        l.info("Print the keys:");
         for (String i : map.keySet()) {
             l.info(i);
         }
 
-        System.out.println("Print the Values:");
+        l.info("Print the Values:");
         for (String i : map.values()) {
             l.info(i);
         }
-        System.out.println("Enter Search Value");
+        l.info("Enter Search Value");
         String search = scan.nextLine();
 
         if (map.containsValue(search)) {
