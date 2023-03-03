@@ -1,11 +1,11 @@
 package assignment.maths;
 
-import java.util.Scanner;
-import java.util.logging.Logger;
+import java.util.*;
+import java.util.logging.*;
 
-
-public class Mathscoordinate {
-	public static void maths()
+public class Maths
+{
+	public static void main( String[] args )
 	{
     	Scanner scan = new Scanner(System.in);
 	    Logger log=Logger.getLogger("hi");
@@ -18,3 +18,4 @@ public class Mathscoordinate {
         s2.active();
     }
 }
+
