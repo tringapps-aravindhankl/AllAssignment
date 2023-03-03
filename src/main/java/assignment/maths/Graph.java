@@ -5,7 +5,7 @@ import java.util.logging.Logger;
 
 
 
-public class Graph implements Cloneable{
+public class Graph implements cloneable{
 	Integer NumberX;
     Integer NumberY;
     Logger log=Logger.getLogger("hi");
