@@ -9,7 +9,6 @@ public class Game
 {
     public static void main( String[] args )
     {
-    Tictactae tic=new Tictactae();
     Scanner scan=new Scanner(System.in);
     Scanner scan1=new Scanner(System.in);
     char mark;
