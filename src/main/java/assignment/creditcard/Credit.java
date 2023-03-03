@@ -3,7 +3,7 @@ package assignment.creditcard;
 import java.util.logging.Logger;
 
 
-public class Credit {
+class Credit {
 	String cardholder;
 	Long cardnumber;
 	String expirydate;
