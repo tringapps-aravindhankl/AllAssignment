@@ -45,7 +45,7 @@ class Stacklist
     public void print(){
         Nodenext temp=this.head;
         if(temp==null){
-            l.info("invalid");
+            l.info("invalid ");
         }else{
             while(temp!=null){
             	String obj=" "+temp.data;
