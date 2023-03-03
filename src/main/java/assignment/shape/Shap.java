@@ -3,7 +3,7 @@ package assignment.shape;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Shap {
+class Shap {
 	float width;
     float radius;
     float length1;
