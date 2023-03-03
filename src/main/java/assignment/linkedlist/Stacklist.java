@@ -11,7 +11,7 @@ class Nodenext{
     }
 }
 
-public class Stacklist
+class Stacklist
 {
     Nodenext head=null;
     int count=0;
