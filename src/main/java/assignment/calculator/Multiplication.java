@@ -1,6 +1,5 @@
 package assignment.calculator;
-
-public class Multiplication extends Maths {
+class Multiplication extends Maths {
 	Multiplication(double a,double b){
 		super(a,b);
 	}
