@@ -1,5 +1,5 @@
 package assignment.linkedlist;
-
+import java.util.logging.Logger;
 
 class Nodenext{
     int data;
@@ -15,6 +15,7 @@ public class Stacklist
 {
     Nodenext head=null;
     int count=0;
+    Logger log=Logger.getLogger("hi");
 
     public void add(int value){
         if(this.head==null)
@@ -47,11 +48,11 @@ public class Stacklist
             System.out.println("invalid");
         }else{
             while(temp!=null){
-                System.out.println(temp.data);
+            	String obj=" "+temp.data;
+                log.info(obj);
 
                 temp=temp.next;
             }
         }
     }
 }
-
