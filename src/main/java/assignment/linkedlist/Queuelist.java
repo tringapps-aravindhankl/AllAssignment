@@ -34,7 +34,7 @@ public class Queuelist {
     public void display(){
         Node temp=this.rootnode;
         if(temp==null){
-            System.out.println("invalid");
+            log.info("invalid");
         }else{
             while(temp!=null){
             	String obj=" "+temp.name;
