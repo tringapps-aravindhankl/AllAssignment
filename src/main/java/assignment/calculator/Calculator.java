@@ -7,7 +7,9 @@ public class Calculator
 {
     public static void calculator()
     {
-    double num1,num2,result;
+    double num1;
+    double num2;
+    double result;
     char option;
     int choose;
     String s="Enter Number:";
