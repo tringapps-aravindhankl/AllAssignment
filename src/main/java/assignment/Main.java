@@ -19,7 +19,6 @@ import assignment.updategpa.Helo;
 public class Main 
 {
     public static void main(String args[]) throws FileNotFoundException {
-    	{
         	Logger log=Logger.getLogger("hi");
         	int choice = 0;
         	
@@ -99,4 +98,3 @@ public class Main
         	  
         }
         }
-    }
