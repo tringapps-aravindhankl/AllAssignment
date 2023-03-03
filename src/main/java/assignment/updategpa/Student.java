@@ -4,7 +4,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 class Student {
-	String name;
+    String name;
     char grade;
     float gpa;
     Logger log=Logger.getLogger("hi");
