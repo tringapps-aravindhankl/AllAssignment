@@ -1,10 +1,6 @@
 package assignment.hash;
 
 import java.util.Scanner;
-
-//import hashmapds.Hashmap;
-//import hashmapds.Hashset;
-//import hashmapds.Treeset;
 public class Hash {
 	public static void hash() {
 	  Scanner scan=new Scanner(System.in);
