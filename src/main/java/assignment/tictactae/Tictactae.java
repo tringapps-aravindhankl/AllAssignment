@@ -4,7 +4,9 @@ import java.io.FileDescriptor;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
 
-public class Tictactae {
+
+class Tictactae
+{
 	static char[][]board;
 	static PrintStream L=new PrintStream((new FileOutputStream(FileDescriptor.out)));
 	Tictactae(){
