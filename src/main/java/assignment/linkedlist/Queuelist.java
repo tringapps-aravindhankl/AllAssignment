@@ -34,11 +34,11 @@ class Queuelist {
     public void print(){
         Node temp=this.head;
         if(temp==null){
-            System.out.println("invalid");
+            log.info("invalid");
         }else{
             while(temp!=null){
             	String obj=" "+temp.data;
-				log.info(obj);
+		log.info(obj);
                 temp=temp.next;
             }
         }
