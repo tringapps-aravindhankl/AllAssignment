@@ -11,7 +11,7 @@ public class Tictactae {
 		board=new char[3][3];
 		initBoard();
 	}
-	public void initBoard()
+	void initBoard()
 	{
 		for(int i=0;i<board.length;i++)
 		{
@@ -21,7 +21,7 @@ public class Tictactae {
 			}
 		}
 	}
-	public void PrintBoard()
+	void PrintBoard()
 	{
 		L.println("-------");
 		for(int i=0;i<board.length;i++)
