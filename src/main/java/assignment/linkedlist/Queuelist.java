@@ -1,5 +1,5 @@
 package assignment.linkedlist;
-
+import java.util.logging.Logger;
 
 class Node{
     int data;
@@ -12,7 +12,7 @@ class Node{
 
 public class Queuelist {
 	Node head=null;
-
+    Logger log=Logger.getLogger("hi");
     public void add(int value){
         if(this.head==null)
         {
@@ -37,7 +37,8 @@ public class Queuelist {
             System.out.println("invalid");
         }else{
             while(temp!=null){
-                System.out.println(temp.data);
+            	String obj=" "+temp.data;
+				log.info(obj);
                 temp=temp.next;
             }
         }
