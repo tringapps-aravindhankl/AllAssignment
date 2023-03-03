@@ -5,6 +5,10 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 public class Shape {
+	private Shape()
+	{
+		
+	}
 	private static Scanner scan;
 	public static void shape(){
     	int option;
