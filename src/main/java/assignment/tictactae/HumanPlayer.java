@@ -6,8 +6,9 @@ import java.io.PrintStream;
 import java.util.Scanner;
 
 
-public class HumanPlayer {
-	static PrintStream L=new PrintStream((new FileOutputStream(FileDescriptor.out)));
+class HumanPlayer 
+{
+	static PrintStream l=new PrintStream((new FileOutputStream(FileDescriptor.out)));
 	String name;
 	char mark;
 	HumanPlayer(String name,char mark){
@@ -15,17 +16,16 @@ public class HumanPlayer {
 		this.mark=mark;
 	}
 	 
-	public void makeMove()
+	void makeMove()
 	{
 	Scanner scan=new Scanner(System.in);
 	int row;
 	int col;
 	do
 	{
-		System.out.println("enter row and col:");
+		l.println("enter row and col:");
 		row=scan.nextInt();
 		col=scan.nextInt();
-		
 	}while(!validMove(row,col));
 	
 	Tictactae.placeMark(row,col,mark);
@@ -43,7 +43,7 @@ public class HumanPlayer {
 			}
 		}
 		else {
-		Tictactae.L.println("Invalid");
+		Tictactae.l.println("Invalid");
 		return false;
 		}
 	}
