@@ -1,9 +1,13 @@
 package assignment.linkedlist;
 import java.util.logging.Logger;
 public class Queue {
+	private Queue()
+	{
+		
+	}
 	public static void queue()
     {
-		Logger log=Logger.getLogger("hi");
+	Logger log=Logger.getLogger("hi");
         Queuelist list=new Queuelist();
         log.info("Queue:");
         list.add(10);
