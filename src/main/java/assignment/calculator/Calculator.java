@@ -5,6 +5,10 @@ import java.util.logging.Logger;
 
 public class Calculator
 {
+    private Calculator()
+    {
+        
+    }
     public static void calculator()
     {
     double num1;
