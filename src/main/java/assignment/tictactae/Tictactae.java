@@ -22,7 +22,7 @@ class Tictactae
 			}
 		}
 	}
-	static void printBoard()
+	static void printboard()
 	{
 		l.println("-------");
 		for(int i=0;i<board.length;i++)
