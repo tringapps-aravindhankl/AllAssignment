@@ -3,7 +3,7 @@ package assignment.updategpa;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Student {
+class Student {
 	String name;
     char grade;
     float gpa;
