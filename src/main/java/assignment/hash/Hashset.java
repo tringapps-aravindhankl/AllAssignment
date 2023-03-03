@@ -6,7 +6,7 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Hashset {
+class Hashset {
 	public static void set() {
 		Logger l=Logger.getLogger("hi");
 		Scanner scan=new Scanner(System.in);
