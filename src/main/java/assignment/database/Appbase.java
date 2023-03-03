@@ -7,7 +7,10 @@ import java.util.logging.Logger;
 
 public class Appbase {
 	private static Scanner scan;
-
+	private Appbase()
+	{
+		
+	}
 	public static void database()
     {
     scan = new Scanner(System.in);
