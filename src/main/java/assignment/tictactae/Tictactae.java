@@ -7,10 +7,9 @@ import java.io.PrintStream;
 
 class Tictactae
 {
-	static char[][]board;
+	static char[][]board=new char[3][3];
 	static PrintStream l=new PrintStream((new FileOutputStream(FileDescriptor.out)));
 	Tictactae(){
-		board=new char[3][3];
 		initBoard();
 	}
 	static void initBoard()
