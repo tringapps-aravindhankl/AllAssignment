@@ -7,6 +7,10 @@ import java.util.logging.Logger;
 
 public class Card {
 	private static Scanner scan;
+	private Card()
+	{
+		
+	}
 	public static void card()
 	{
 	Logger log=Logger.getLogger("hi");
