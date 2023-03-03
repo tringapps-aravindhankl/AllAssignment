@@ -27,13 +27,13 @@ public class Files {
         for(int i=0;i<string1.length;i++) {
         	t=1;
         	for(int j=i+1;j<string1.length;j++) {
-        		if(string1[i].equals(string1[j]) && string1[i]!=" ")
+        		if(string1[i].equals(string1[j]) && !string1[i].equals("."))
         		{
         			t++;
         			string1[j]=".";
         		}
         	}
-        	if(string1[i]!=".") {
+        	if(!string1[i].equals(".")) {
         		map.put(string1[i],t);
         	}
         }
