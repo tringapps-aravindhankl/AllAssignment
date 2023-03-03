@@ -7,12 +7,13 @@ public class Hash {
 	
 	}
 	public static void hash() {
+	  Logger log=Logger.getLogger("hi");
 	  Scanner scan=new Scanner(System.in);
 	  boolean ch=true;
 	  int choice;
 	  while(ch)
    	  {
-	  System.out.println("Enter your choice 1.Hashmap\n 2.Hashset\n 3.Tree\n 4.Exit");
+	  log.info("Enter your choice 1.Hashmap\n 2.Hashset\n 3.Tree\n 4.Exit");
    	  choice=scan.nextInt();
    	  ch = true;
    	  
