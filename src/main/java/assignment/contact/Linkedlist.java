@@ -87,7 +87,7 @@ public class Linkedlist {
     {
         Node temp=rootnode;
         if(temp==null) {
-            System.out.println("No Contacts");
+            l.info("No Contacts");
         }
         else
         {
