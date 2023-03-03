@@ -11,7 +11,7 @@ public class Calculator
     double num2;
     double result;
     char option;
-    int choose;
+
     String s="Enter Number:";
     Scanner scan;
     scan=new Scanner(System.in);
