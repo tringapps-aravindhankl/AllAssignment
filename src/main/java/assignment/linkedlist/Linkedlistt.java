@@ -1,6 +1,6 @@
 package assignment.linkedlist;
 import java.util.logging.Logger;
-public class Linkedlistt extends List{
+class Linkedlistt extends List{
 	Node head=null;
 	Logger log=Logger.getLogger("hi");
     public void add(int value){
