@@ -13,7 +13,7 @@ public class Files {
     {
     	StringBuilder string=new StringBuilder();
     	Map<String,Integer> map = new HashMap<>();
-    	Logger l=Logger.getLogger("hi");
+    	Logger l=Logger.getLogger("hii");
         String urllink="C:\\Users\\Tringapps-User23\\Desktop\\java\\java.txt";
         File file=new File(urllink);
         Scanner scan=new Scanner(file);
