@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.util.logging.Logger;
 
-public class Database {
+class Database {
 	String url;
 	String username;
 	String password;
