@@ -6,7 +6,7 @@ import java.util.logging.Logger;
 
 
 public class Helo {
-
+	 private
 	 public static void mark()
 	    {
 	    	Scanner scan = new Scanner(System.in);
