@@ -1,7 +1,8 @@
 package assignment.linkedlist;
-
+import java.util.logging.Logger;
 public class Linkedlistt extends List{
 	Node head=null;
+	Logger log=Logger.getLogger("hi");
     public void add(int value){
         if(this.head==null)
         {
@@ -47,10 +48,11 @@ public class Linkedlistt extends List{
     public void print(){
         Node temp=this.head;
         if(temp==null){
-            System.out.println("invalid");
+            log.info("invalid");
         }else{
             while(temp!=null){
-                System.out.println(temp.data);
+            	String obj=" "+temp.data;
+				log.info(obj);
 
                 temp=temp.next;
             }
