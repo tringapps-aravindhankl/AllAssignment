@@ -9,6 +9,10 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 public class Files {
+	private Files()
+	{
+		
+	}
 	public static void perform() throws FileNotFoundException
     {
     	StringBuilder string=new StringBuilder();
