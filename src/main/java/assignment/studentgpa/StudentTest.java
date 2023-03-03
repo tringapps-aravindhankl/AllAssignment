@@ -1,6 +1,6 @@
 package assignment.studentgpa;
 
-public class StudentTest {
+class StudentTest {
 	private String name;
 	private int age;
 	private double gpa;
