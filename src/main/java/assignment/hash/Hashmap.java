@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Hashmap {
+class Hashmap {
 	public static void hashmap()
     {
     	HashMap<String, String> map = new HashMap<>();
