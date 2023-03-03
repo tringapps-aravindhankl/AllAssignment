@@ -5,6 +5,10 @@ import java.util.logging.Logger;
 
 
 public class Contact {
+	private Contact()
+	{
+	
+	}
 	public static void contact()
     {
     	Linkedlist list=new Linkedlist();
