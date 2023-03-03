@@ -7,7 +7,7 @@ import java.util.logging.Logger;
 
 public class Treeset {
 	public static void tree() {
-		TreeSet<Integer> ts=new TreeSet();
+		TreeSet<Integer> ts=new TreeSet<>();
 		Logger l=Logger.getLogger(" ");
 		ts.add(21);
 		ts.add(11);
