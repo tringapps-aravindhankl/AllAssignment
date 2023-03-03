@@ -13,17 +13,17 @@ class Tictactae
 		board=new char[3][3];
 		initBoard();
 	}
-	void initBoard()
+	static void initBoard()
 	{
 		for(int i=0;i<board.length;i++)
 		{
 			for(int j=0;j<board.length;j++)
 			{
-				this.board[i][j]=' ';
+				board[i][j]=' ';
 			}
 		}
 	}
-	void PrintBoard()
+	static void PrintBoard()
 	{
 		l.println("-------");
 		for(int i=0;i<board.length;i++)
