@@ -1,6 +1,6 @@
 package assignment.calculator;
 
-public class Divison extends Maths {
+class Divison extends Maths {
 
 	 
 		Divison(double a,double b){
