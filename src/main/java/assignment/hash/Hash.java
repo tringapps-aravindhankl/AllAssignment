@@ -2,6 +2,10 @@ package assignment.hash;
 
 import java.util.Scanner;
 public class Hash {
+	private Hash()
+	{
+	
+	}
 	public static void hash() {
 	  Scanner scan=new Scanner(System.in);
 	  boolean ch=true;
