@@ -10,8 +10,9 @@ public class List {
 	    }
 	}
 	public static void list() {
+		            Logger log=Logger.getLogger("hi");
 	                Linkedlistt list=new Linkedlistt();
-	                System.out.println("Linkedlist:");
+	                log.info("Linkedlist:");
 	                list.add(10);
 	                list.add(20);
 	                list.add(30);
