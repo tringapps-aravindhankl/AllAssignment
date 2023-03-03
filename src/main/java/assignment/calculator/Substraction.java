@@ -1,5 +1,4 @@
-package assignment.calculator;
-
+package assignment.calculator
 class Substraction extends Maths{
 	Substraction(double a,double b){
 		super(a,b);
