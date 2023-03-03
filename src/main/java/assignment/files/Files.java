@@ -46,9 +46,8 @@ public class Files {
             }
            while(!queue.isEmpty())
            {
-//        	   Entry<String, Integer> name=queue.poll();
-//        	   l.log(Level.INFO,()->""+name);
-        	   System.out.println(queue.poll());
+           String obj=" "+queue.poll();
+        	   l.info(obj);
            }
 }
 }
