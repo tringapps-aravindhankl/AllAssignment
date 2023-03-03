@@ -19,7 +19,7 @@ class Tictactae
 		{
 			for(int j=0;j<board.length;j++)
 			{
-				board[i][j]=' ';
+				this.board[i][j]=' ';
 			}
 		}
 	}
