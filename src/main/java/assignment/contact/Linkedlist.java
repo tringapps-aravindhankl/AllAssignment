@@ -2,7 +2,7 @@ package assignment.contact;
 
 import java.util.logging.Logger;
 
-public class Linkedlist {
+class Linkedlist {
 	Logger l=Logger.getLogger("hi");
     Node rootnode=null;
 
