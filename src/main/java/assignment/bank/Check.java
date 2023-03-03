@@ -6,7 +6,7 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Check {
+class Check {
 	List<Accountdetails> list = new ArrayList<Accountdetails>();
 	Logger log=Logger.getLogger("hi");
     int option = 0;
